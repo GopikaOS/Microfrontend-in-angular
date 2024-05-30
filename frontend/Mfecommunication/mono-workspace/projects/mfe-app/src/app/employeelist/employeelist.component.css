@@ -1,0 +1,11 @@
+.employee-list {
+  list-style-type: none;
+  padding: 0;
+}
+.employee-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.employee-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
